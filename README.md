@@ -1,2 +1,2 @@
-# meu-primeiro-projeto
+# Exercicios python
 aprendendo python
