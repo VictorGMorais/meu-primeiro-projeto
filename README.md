@@ -1,4 +1,4 @@
-# meu-primeiro-projeto
+# Exercicios python
 aprendendo python
 ## Descrição
 Este é o meu primeiro projeto em Python, onde estou aprendendo os conceitos básicos da linguagem.
