@@ -40,12 +40,12 @@ def verificaçao(escolha,num_pergunta):
     alternativa_certa = opcoes[num_pergunta][respostas[num_pergunta]-1]
     
     if escolha == respostas[num_pergunta]:
-        print('Acertou!')
+        print('Acertou! 👏')
         linha()
         print('\n')
         return 1  #retorna 1 ou 0, e um contador para imprimir no final acertos e erros
     else:
-        print(f'Errou! o certo era {respostas[num_pergunta]} : {alternativa_certa}')
+        print(f'Errou! 😒 o certo era {respostas[num_pergunta]} : {alternativa_certa}')
         linha()
         print('\n')
         return 0
