@@ -1,0 +1,18 @@
+{
+  "nome": "victor",
+  "sobrenome": "morais",
+  "data_nascimento": [
+    {
+      "dia": 30,
+      "mes": 5,
+      "ano": 1999
+    }
+  ],
+  "idade": 25,
+  "sexo": "masculino",
+  "pele": "branco",
+  "status": "solteiro",
+  "pefere": "animes",
+  "dev": true,
+  "odio": null
+}

@@ -24,7 +24,7 @@ concatenar = lambda s1,s2,sep: f'{s1}{sep}{s2}'
 print(concatenar('bom dia','Como vai voce?','! '))
 
 #4
-fatorial = lambda x: 1 if x == 0 else x * fatorial(x-1)
+fatorial = lambda x: 1 if x == 0 else x * fatorial(x-1) #melhor evitar recursividade
 print(fatorial(5))
 
 #5

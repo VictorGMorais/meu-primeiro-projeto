@@ -1,0 +1,5 @@
+
+Error: voce nao conseguiu logar, LogFileMixin
+Success: logado com sucesso, LogFileMixin
+Success: galaxys24 esta ligado, Smartphone
+Error: iphonexr7 esta desligado, Smartphone

@@ -24,3 +24,26 @@ def multiplica(a,b):
 
 final = multiplica(8,4)
 print(final)
+
+
+##################################################################################
+
+def decoradora(func):
+    def inicia(*args,**kwargs):
+        for i in args:
+            verifica_se_positivo(i)
+        for value in kwargs.values():
+            verifica_se_positivo(value)
+            
+        return func(*args,**kwargs)
+    return inicia
+
+@decoradora
+def somar(a,b):
+    return a + b 
+
+def verifica_se_positivo(args):
+    if args < 0:
+        raise ValueError("o numero tem que ser positivo")
+
+print(somar(5,-6))
